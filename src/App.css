@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 20px auto; /* Centrar el contenedor */
+  padding: 20px; /* Espaciado interno */
+  background-color: white; /* Fondo blanco para el contenedor */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo del encabezado */
+h1 {
+  text-align: center; /* Centrar el texto del encabezado */
+  color: #333; /* Color del texto */
+}
+
+/* Estilos para la navegación */
+nav {
+  margin-bottom: 20px; /* Espacio debajo de la navegación */
+}
+
+nav ul {
+  list-style-type: none; /* Eliminar viñetas de la lista */
+  padding: 0; /* Eliminar padding por defecto */
+}
+
+nav li {
+  display: inline; /* Mostrar elementos en línea (horizontalmente) */
+  margin-right: 15px; /* Espacio entre botones */
+}
+
+nav button {
+  padding: 10px 15px; /* Espaciado interno del botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados para el botón */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+nav button:hover {
+  background-color: #0056b3; /* Cambiar color al pasar el mouse por encima */
+}
+
+/* Estilos para las rutas (opcional) */
+h2 {
+  margin-top: 20px; /* Espacio arriba de los subtítulos */
+}
